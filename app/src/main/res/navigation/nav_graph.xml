@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            app:startDestination="@id/Rv01Fragment">
+
+
+    <fragment
+            android:id="@+id/Rv01Fragment"
+            android:name="com.example.myrosarioprayer.Rv01Fragment"
+            android:label="@string/rv01_fragment_label"
+            tools:layout="@layout/fragment_rv01">
+
+        <action
+                android:id="@+id/action_FirstFragment_to_SecondFragment"
+                app:destination="@id/Rv02Fragment"/>
+
+        <action
+                android:id="@+id/action_SecondFragment_to_FirstFragment"
+                app:destination="@id/Rv01Fragment"/>
+
+    </fragment>
+
+    <fragment
+            android:id="@+id/Rv02Fragment"
+            android:name="com.example.myrosarioprayer.Rv02Fragment"
+            android:label="@string/rv02_fragment_label"
+            tools:layout="@layout/fragment_rv02">
+
+        <action
+                android:id="@+id/action_FirstFragment_to_SecondFragment"
+                app:destination="@id/Rv02Fragment"/>
+
+        <action
+                android:id="@+id/action_SecondFragment_to_FirstFragment"
+                app:destination="@id/Rv01Fragment"/>
+    </fragment>
+
+
+</navigation>

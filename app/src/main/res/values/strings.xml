@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">MyRosarioPrayer</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="rv01_fragment_label">Misteri del Rosario</string>
+    <string name="rv02_fragment_label">Mistero del Giorno</string>
+    <string name="next">Ver. 02</string>
+    <string name="previous">Ver. 01</string>
+
+    <string name="pray">Recita preghiera</string>
+
+    <string name="invocazione">V- O Dio, vieni a salvarmi.\n
+        R- Signore, vieni presto in mio aiuto.</string>
+
+    <string name="segno_croce">Nel Nome del Padre e del Figlio e dello Spirito Santo. Amen.</string>
+
+    <string name="credo"> Credo in un solo Dio, Padre Onnipotente, \n
+        creatore del cielo e della terra, di tutte le cose visibili e invisibili.\n
+        Credo in un solo Signore Gesù Cristo unigenito figlio di Dio nato dal Padre \n
+        prima di tutti i secoli. Dio da Dio, Luce da Luce, Dio vero da Dio vero, \n
+        generato, non creato, dalla stessa sostanza del Padre.\n
+        Per mezzo di Lui tutte le cose sono state create. Per noi uomini \n
+        e per la nostra salvezza discese dal cielo e per opera dello Spirito Santo \n
+        si è incarnato nel seno della Vergine Maria e si è fatto uomo.\n
+        Fu crocifisso per noi sotto Ponzio Pilato, morì e fu sepolto \n
+        e il terzo giorno è resuscitato secondo le Scritture ed è salito al Cielo \n
+        e siede alle destra del Padre e di nuovo verrà nella gloria \n
+        per giudicare i vivi e i morti ed il suo Regno non avrà fine.\n
+        Credo nello Spirito Santo che è Signore e dà la vita \n
+        e procede dal Padre e dal Figlio e con il Padre ed il Figlio è adorato \n
+        e glorificato e ha parlato per mezzo dei profeti.\n
+        Credo la Chiesa una, santa, cattolica e apostolica.\n
+        Professo un solo battesimo per il perdono dei peccati \n
+        e aspetto la resurrezione dei morti e la vita del mondo che verrà. Amen</string>
+
+    <string name="padre_nostro">Padre nostro\n
+        Padre nostro, che sei nei cieli, sia santificato il tuo nome, \n
+        venga il tuo regno, sia fatta la tua volontà, come in cielo così in terra. \n
+        Dacci oggi il nostro pane quotidiano, e rimetti a noi i nostri debiti, \n
+        come anche noi li rimettiamo ai nostri debitori, \n
+        e non abbandonarci alla tentazione ma liberaci dal male. Amen</string>
+
+    <string name="ave_mater">Ave Maria, piena di grazia, il Signore è con te. \n
+        Tu sei benedetta fra le donne e benedetto è il frutto del tuo seno, Gesù. \n
+        Santa Maria, Madre di Dio, prega per noi peccatori, adesso e nell?ora della nostra morte. Amen</string>
+
+    <string name="gloria">Gloria al Padre\n
+        Gloria al Padre e al Figlio e allo Spirito Santo. \n
+        Come era nel principio e ora e sempre, nei secoli dei secoli. Amen.</string>
+
+    <string name="invocazione_fatima">«Gesù mio, perdona le nostre colpe, \n
+        preservaci dal fuoco dell?inferno, \n
+        porta in cielo tutte le anime, \n
+        specialmente le più bisognose della tua misericordia»</string>
+
+    <string name="esclamazione_regina_pace">V- Maria Regina della Pace\n
+        R- Prega per noi </string>
+
+    <string name="salve_regina">Salve Regina\n
+        Salve, o Regina, madre di misericordia, vita, dolcezza e speranza nostra, salve. \n
+        A te ricorriamo, esuli figli di Eva: \n
+        a te sospiriamo, gementi e piangenti in questa valle di lacrime. \n
+        Orsù dunque, avvocata nostra, rivolgi a noi gli occhi tuoi misericordiosi. \n
+        E mostraci, dopo questo esilio, Gesù, il frutto benedetto del tuo seno. \n
+        O clemente, o pia, o dolce Vergine Maria.</string>
+
+    <string name="intenzioni_papa">per il Papa, per la Chiesa e in suffragio delle anime del Purgatorio.</string>
+
+</resources>
