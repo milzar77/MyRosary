@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     private ActivityMainBinding binding;
 
     private Spinner spinner;
-    private static final String[] spinnerComboItem = {"Misteri del Rosario GPII", "Mistero del Giorno", "Invocazione Santa Rita", "Misteri del Rosario"};
+    private static final String[] spinnerComboItem = {"Misteri di GPII", "Mistero del Giorno", "Invocazione Santa Rita", "Misteri del Vaticano"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
