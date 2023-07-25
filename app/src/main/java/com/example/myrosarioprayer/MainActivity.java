@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     private ActivityMainBinding binding;
 
     private Spinner spinner;
-    private static final String[] spinnerComboItem = {"Misteri del Rosario GPII", "Mistero del Giorno"};
+    private static final String[] spinnerComboItem = {"Misteri del Rosario GPII", "Mistero del Giorno", "Invocazione Santa Rita", "Misteri del Rosario"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -69,11 +69,15 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 LayoutInflater inflater = getLayoutInflater();
                 View myView1 = inflater.inflate(R.layout.fragment_rv01, null);
                 View myView2 = inflater.inflate(R.layout.fragment_rv02, null);
+                View myView3 = inflater.inflate(R.layout.fragment_rv03, null);
+                View myView4 = inflater.inflate(R.layout.fragment_rv04, null);
                 TextView myTextView1 = (TextView) findViewById(R.id.textview_first);
                 TextView myTextView2 = (TextView) findViewById(R.id.textview_second);
+                TextView myTextView3 = (TextView) findViewById(R.id.textview_third);
+                TextView myTextView4 = (TextView) findViewById(R.id.textview_fourth);
 
                 //RosarioActions.agisciUno(myTextView1, myTextView2);
-                RosarioActions.clearRosario(myTextView1, myTextView2);
+                RosarioActions.clearRosario(myTextView1, myTextView2, myTextView3, myTextView4);
 
             }
         });
@@ -170,13 +174,20 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 Navigation.findNavController(MainActivity.this, R.id.nav_host_fragment_content_main)
                         .navigate(R.id.action_SecondFragment_to_FirstFragment);
                 break;
+
             case 1:
                 Navigation.findNavController(MainActivity.this, R.id.nav_host_fragment_content_main)
                         .navigate(R.id.action_FirstFragment_to_SecondFragment);
 
                 break;
             case 2:
-                // Whatever you want to happen when the thrid item gets selected
+                Navigation.findNavController(MainActivity.this, R.id.nav_host_fragment_content_main)
+                        .navigate(R.id.action_Fragment_to_ThirdFragment);
+
+            case 3:
+                Navigation.findNavController(MainActivity.this, R.id.nav_host_fragment_content_main)
+                        .navigate(R.id.action_Fragment_to_FourthFragment);
+
                 break;
 
         }

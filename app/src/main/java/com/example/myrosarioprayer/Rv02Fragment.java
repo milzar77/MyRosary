@@ -48,9 +48,23 @@ public class Rv02Fragment extends Fragment {
         binding.buttonFirstAction.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View viewNested) {
+//resetting
+                /*TextView myTextView01 = (TextView) view.findViewById(R.id.textview_first);
+                myTextView01.setEnabled(false);
+                TextView myTextView02 = (TextView) view.findViewById(R.id.textview_second);
+                myTextView02.setEnabled(false);
+                TextView myTextView03 = (TextView) view.findViewById(R.id.textview_third);
+                myTextView03.setEnabled(false);
+                TextView myTextView04 = (TextView) view.findViewById(R.id.textview_fourth);
+                myTextView04.setEnabled(false);*/
+
+//setting
+                TextView myTextViewDummy = new TextView(view.getContext());
                 TextView myTextView1 = (TextView) view.findViewById(R.id.textview_first);
 //                TextView myTextView2 = (TextView) view.findViewById(R.id.textview_second);
-                RosarioActions.agisciUno(view, null, null, myTextView1, null);
+                myTextViewDummy.setEnabled(false);
+                myTextView1.setEnabled(true);
+                RosarioActions.agisciUno(view, myTextViewDummy, myTextViewDummy, myTextView1, myTextViewDummy, myTextViewDummy);
 
             }
         });

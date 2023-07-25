@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Rv03Fragment">
+
+    <!--
+    1) Per ogni fragment una version del rosario
+    2) versione con textview singoli per ciascun grano di seguito in fila, con rilievo e simbolo visibile quando attivato
+     -->
+
+    <TextView
+            android:id="@+id/textview_third"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="top|center_horizontal"
+            android:inputType="textMultiLine"
+            android:overScrollMode="always"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical"
+            android:paddingLeft="0dp"
+            android:lines="3"
+            android:minWidth="250dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:scrollHorizontally="false"
+            android:text="\n"
+
+            android:background="@drawable/rounded_corner"
+            android:textColor="@color/white"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/button_first_action"
+    />
+
+
+
+    <Button
+            android:id="@+id/button_first_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="350dp"
+            android:text="@string/pray"
+            app:layout_constraintTop_toBottomOf="@id/button_first_action"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+    />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

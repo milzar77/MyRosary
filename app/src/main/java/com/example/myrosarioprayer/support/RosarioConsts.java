@@ -15,11 +15,11 @@ public class RosarioConsts {
             ERosarioSymbol.SYM_GLORIA
     };
 
+
     public static final ERosarioSymbol[] schemeMantraForAllOfUs2 = {
-            ERosarioSymbol.SYM_PATER,
-            ERosarioSymbol.SYM_AVE_B01,ERosarioSymbol.SYM_AVE_B02,ERosarioSymbol.SYM_AVE_B03,ERosarioSymbol.SYM_AVE_B04,ERosarioSymbol.SYM_AVE_B05,
-            ERosarioSymbol.SYM_AVE_B06,ERosarioSymbol.SYM_AVE_B07,ERosarioSymbol.SYM_AVE_B08,ERosarioSymbol.SYM_AVE_B09,ERosarioSymbol.SYM_AVE_B10,
-            ERosarioSymbol.SYM_GLORIA
+            ERosarioSymbol.SYM_PATER,ERosarioSymbol.SYM_PATER,ERosarioSymbol.SYM_PATER,
+            ERosarioSymbol.SYM_AVE_A01,ERosarioSymbol.SYM_AVE_A02,ERosarioSymbol.SYM_AVE_A03,
+            ERosarioSymbol.SYM_GLORIA,ERosarioSymbol.SYM_GLORIA,ERosarioSymbol.SYM_GLORIA
     };
 
     public static final ERosarioSymbol[] schemeMantraForAllOfUs3 = {
@@ -27,6 +27,13 @@ public class RosarioConsts {
             ERosarioSymbol.SYM_AVE_B02,ERosarioSymbol.SYM_AVE_B03,ERosarioSymbol.SYM_AVE_B04,ERosarioSymbol.SYM_AVE_B05,ERosarioSymbol.SYM_AVE_B06,
             ERosarioSymbol.SYM_AVE_B07,ERosarioSymbol.SYM_AVE_B08,ERosarioSymbol.SYM_AVE_B09,ERosarioSymbol.SYM_AVE_B10,ERosarioSymbol.SYM_AVE_B11,
             ERosarioSymbol.SYM_AVE_B12
+    };
+
+    public static final ERosarioSymbol[] schemeMantraForAllOfUs4 = {
+            ERosarioSymbol.SYM_PATER,
+            ERosarioSymbol.SYM_AVE_B01,ERosarioSymbol.SYM_AVE_B02,ERosarioSymbol.SYM_AVE_B03,ERosarioSymbol.SYM_AVE_B04,ERosarioSymbol.SYM_AVE_B05,
+            ERosarioSymbol.SYM_AVE_B06,ERosarioSymbol.SYM_AVE_B07,ERosarioSymbol.SYM_AVE_B08,ERosarioSymbol.SYM_AVE_B09,ERosarioSymbol.SYM_AVE_B10,
+            ERosarioSymbol.SYM_GLORIA
     };
 
     public static final ERosarioSymbol[] schemeMantraForThePope1 = {
@@ -52,6 +59,11 @@ public class RosarioConsts {
     };
 
     public static final ERosarioSymbol[] schemeDayMisteryGiovanniPaoloII = {
+            ERosarioSymbol.SYM_EMPTY,ERosarioSymbol.SYM_MISTERI_GAUDIOSI,ERosarioSymbol.SYM_MISTERI_DOLOROSI,ERosarioSymbol.SYM_MISTERI_GLORIOSI,ERosarioSymbol.SYM_MISTERI_LUMINOSI,ERosarioSymbol.SYM_MISTERI_DOLOROSI,ERosarioSymbol.SYM_MISTERI_GAUDIOSI,ERosarioSymbol.SYM_MISTERI_GLORIOSI
+            //litanie mariane con nomi di Maria
+    };
+
+    public static final ERosarioSymbol[] schemeDayMistery = {
             ERosarioSymbol.SYM_EMPTY,ERosarioSymbol.SYM_MISTERI_GAUDIOSI,ERosarioSymbol.SYM_MISTERI_DOLOROSI,ERosarioSymbol.SYM_MISTERI_GLORIOSI,ERosarioSymbol.SYM_MISTERI_LUMINOSI,ERosarioSymbol.SYM_MISTERI_DOLOROSI,ERosarioSymbol.SYM_MISTERI_GAUDIOSI,ERosarioSymbol.SYM_MISTERI_GLORIOSI
             //litanie mariane con nomi di Maria
     };

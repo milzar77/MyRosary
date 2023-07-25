@@ -7,13 +7,13 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.navigation.fragment.NavHostFragment;
-import com.example.myrosarioprayer.databinding.FragmentRv01Binding;
+import com.example.myrosarioprayer.databinding.FragmentRv03Binding;
+import com.example.myrosarioprayer.databinding.FragmentRv04Binding;
 import com.example.myrosarioprayer.support.RosarioActions;
 
-public class Rv01Fragment extends Fragment {
+public class Rv04Fragment extends Fragment {
 
-    private FragmentRv01Binding binding;
+    private FragmentRv04Binding binding;
 
     @Override
     public View onCreateView(
@@ -21,7 +21,7 @@ public class Rv01Fragment extends Fragment {
             Bundle savedInstanceState
     ) {
 
-        binding = FragmentRv01Binding.inflate(inflater, container, false);
+        binding = FragmentRv04Binding.inflate(inflater, container, false);
         return binding.getRoot();
 
     }
@@ -29,12 +29,9 @@ public class Rv01Fragment extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        RosarioActions.recitaMisteroDelGiorno = false;
-
-        binding.buttonSecondAction.setOnClickListener(new View.OnClickListener() {
+        binding.buttonSecondAction4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View viewNested) {
-
 //resetting
                 /*TextView myTextView01 = (TextView) view.findViewById(R.id.textview_first);
                 myTextView01.setEnabled(false);
@@ -47,11 +44,11 @@ public class Rv01Fragment extends Fragment {
 
 //setting
                 TextView myTextViewDummy = new TextView(view.getContext());
-                TextView myTextView2 = (TextView) view.findViewById(R.id.textview_second);
+                TextView myTextView1 = (TextView) view.findViewById(R.id.textview_fourth);
+//                TextView myTextView2 = (TextView) view.findViewById(R.id.textview_second);
                 myTextViewDummy.setEnabled(false);
-                myTextView2.setEnabled(true);
-
-                RosarioActions.agisciUno(view, myTextViewDummy, myTextView2, myTextViewDummy, myTextViewDummy, myTextViewDummy);
+                myTextView1.setEnabled(true);
+                RosarioActions.agisciUno(view, myTextViewDummy, myTextViewDummy, myTextViewDummy, myTextViewDummy, myTextView1);
 
             }
         });
@@ -62,7 +59,7 @@ public class Rv01Fragment extends Fragment {
     public void onDestroyView() {
         super.onDestroyView();
         binding = null;
-        RosarioActions.restartRosario();
     }
+
 
 }

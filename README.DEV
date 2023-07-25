@@ -1,0 +1,9 @@
+Per aggiungere un nuovo rosario:
+
+1) aggiungi il frammento xml, esempio fragment_rv09
+2) Adegua il MainActivity, ossia le label dello spinner, le view ed infine il switch case delle action
+3) adegua il nav_graph.xml aggiungendo la nuova fragment action e la fragment reference ad ogni precedente fragment action
+4) adegua se necessario la action di RosarioActions
+5) adegua se necessario la action di RosarioConsts
+6) Crea la classe Rv09FRagment.java
+7) popola con il placeholder lo string.xml

@@ -19,6 +19,14 @@
                 android:id="@+id/action_SecondFragment_to_FirstFragment"
                 app:destination="@id/Rv01Fragment"/>
 
+        <action
+                android:id="@+id/action_Fragment_to_ThirdFragment"
+                app:destination="@id/Rv03Fragment"/>
+
+        <action
+                android:id="@+id/action_Fragment_to_FourthFragment"
+                app:destination="@id/Rv04Fragment"/>
+
     </fragment>
 
     <fragment
@@ -34,7 +42,63 @@
         <action
                 android:id="@+id/action_SecondFragment_to_FirstFragment"
                 app:destination="@id/Rv01Fragment"/>
+
+        <action
+                android:id="@+id/action_Fragment_to_ThirdFragment"
+                app:destination="@id/Rv03Fragment"/>
+
+        <action
+                android:id="@+id/action_Fragment_to_FourthFragment"
+                app:destination="@id/Rv04Fragment"/>
+
     </fragment>
 
+    <fragment
+            android:id="@+id/Rv03Fragment"
+            android:name="com.example.myrosarioprayer.Rv03Fragment"
+            android:label="@string/rv02_fragment_label"
+            tools:layout="@layout/fragment_rv03">
+
+        <action
+                android:id="@+id/action_FirstFragment_to_SecondFragment"
+                app:destination="@id/Rv02Fragment"/>
+
+        <action
+                android:id="@+id/action_SecondFragment_to_FirstFragment"
+                app:destination="@id/Rv01Fragment"/>
+
+        <action
+                android:id="@+id/action_Fragment_to_ThirdFragment"
+                app:destination="@id/Rv03Fragment"/>
+
+        <action
+                android:id="@+id/action_Fragment_to_FourthFragment"
+                app:destination="@id/Rv04Fragment"/>
+
+    </fragment>
+
+    <fragment
+            android:id="@+id/Rv04Fragment"
+            android:name="com.example.myrosarioprayer.Rv04Fragment"
+            android:label="@string/rv02_fragment_label"
+            tools:layout="@layout/fragment_rv04">
+
+        <action
+                android:id="@+id/action_FirstFragment_to_SecondFragment"
+                app:destination="@id/Rv02Fragment"/>
+
+        <action
+                android:id="@+id/action_SecondFragment_to_FirstFragment"
+                app:destination="@id/Rv01Fragment"/>
+
+        <action
+                android:id="@+id/action_Fragment_to_ThirdFragment"
+                app:destination="@id/Rv03Fragment"/>
+
+        <action
+                android:id="@+id/action_Fragment_to_FourthFragment"
+                app:destination="@id/Rv04Fragment"/>
+
+    </fragment>
 
 </navigation>

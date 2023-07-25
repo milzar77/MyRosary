@@ -2,8 +2,10 @@
     <string name="app_name">MyRosarioPrayer</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="rv01_fragment_label">Misteri del Rosario</string>
-    <string name="rv02_fragment_label">Mistero del Giorno</string>
+    <string name="rv01_fragment_label">Santo Rosario</string>
+    <string name="rv02_fragment_label">Santo Rosario</string>
+    <string name="rv03_fragment_label">Santo Rosario</string>
+    <string name="rv04_fragment_label">Santo Rosario</string>
     <string name="next">Ver. 02</string>
     <string name="previous">Ver. 01</string>
 
