@@ -4,8 +4,11 @@ import android.view.View;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import com.example.myrosarioprayer.R;
+import kotlin.text.Regex;
 
 import java.time.LocalDate;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class RosarioActions {
 
@@ -31,6 +34,42 @@ public class RosarioActions {
             if (prayerIndex < RosarioConsts.schemeMantraForAllOfUs2.length) {
                 if (myTextView4 != null)
                     myTextView4.append(RosarioConsts.schemeMantraForAllOfUs2[prayerIndex].symbol);
+                prayerIndex++;
+            } else {
+                prayerIndex = 0;
+                graniPrecedenti = "";
+                misteryIndex++;
+            }
+        }
+
+    }
+
+    public static void agisciSadhguruChant(@NonNull View view, TextView myTextView, TextView myTextViewProgressive) {
+
+        if (misteryIndex==0) {
+            if (prayerIndex < RosarioConsts.schemeMantraForSadhguruChant.length) {
+                if (myTextView != null) {
+                    myTextViewProgressive.setText(""+(prayerIndex+1));
+                    myTextView.append(RosarioConsts.schemeMantraForSadhguruChant[prayerIndex].symbol);
+                }
+                prayerIndex++;
+            } else {
+                prayerIndex = 0;
+                graniPrecedenti = "";
+                misteryIndex++;
+            }
+        }
+
+    }
+
+    public static void agisciAumChant(@NonNull View view, TextView myTextView, TextView myTextViewProgressive) {
+
+        if (misteryIndex==0) {
+            if (prayerIndex < RosarioConsts.schemeMantraForAumChant.length) {
+                if (myTextView != null) {
+                    myTextViewProgressive.setText(""+(prayerIndex+1));
+                    myTextView.append(RosarioConsts.schemeMantraForAumChant[prayerIndex].symbol);
+                }
                 prayerIndex++;
             } else {
                 prayerIndex = 0;
@@ -272,17 +311,26 @@ public class RosarioActions {
 
     }
 
-    public static void clearRosario(TextView myTextView1, TextView myTextView2, TextView myTextView3, TextView myTextView4) {
+    public static void clearRosario(TextView...myTextView) {
 
         //assert(myTextView1!=null) : "Elemento visuale nullo!";
         //assert(myTextView2!=null) : "Elemento visuale nullo!";
 
         restartRosario();
 
-        if (myTextView1!=null) myTextView1.setText("");
-        if (myTextView2!=null) myTextView2.setText("");
-        if (myTextView3!=null) myTextView3.setText("");
-        if (myTextView4!=null) myTextView4.setText("");
+        for (TextView t1 : myTextView) {
+            if (t1!=null) {
+
+                String txt = ""+t1.getText();
+                Pattern pattern = Pattern.compile("[\\d]");
+                Matcher matcher = pattern.matcher(txt);
+                if ( matcher.find() ) {
+                    t1.setText("");
+                } else {
+                    t1.setText("\n");
+                }
+            }
+        }
 
     }
 

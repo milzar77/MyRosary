@@ -27,6 +27,14 @@
                 android:id="@+id/action_Fragment_to_FourthFragment"
                 app:destination="@id/Rv04Fragment"/>
 
+        <action
+                android:id="@+id/action_Fragment_to_FithFragment"
+                app:destination="@id/Rv05Fragment"/>
+
+        <action
+                android:id="@+id/action_Fragment_to_SixthFragment"
+                app:destination="@id/Rv06Fragment"/>
+
     </fragment>
 
     <fragment
@@ -50,6 +58,14 @@
         <action
                 android:id="@+id/action_Fragment_to_FourthFragment"
                 app:destination="@id/Rv04Fragment"/>
+
+        <action
+                android:id="@+id/action_Fragment_to_FithFragment"
+                app:destination="@id/Rv05Fragment"/>
+
+        <action
+                android:id="@+id/action_Fragment_to_SixthFragment"
+                app:destination="@id/Rv06Fragment"/>
 
     </fragment>
 
@@ -75,6 +91,14 @@
                 android:id="@+id/action_Fragment_to_FourthFragment"
                 app:destination="@id/Rv04Fragment"/>
 
+        <action
+                android:id="@+id/action_Fragment_to_FithFragment"
+                app:destination="@id/Rv05Fragment"/>
+
+        <action
+                android:id="@+id/action_Fragment_to_SixthFragment"
+                app:destination="@id/Rv06Fragment"/>
+
     </fragment>
 
     <fragment
@@ -98,6 +122,79 @@
         <action
                 android:id="@+id/action_Fragment_to_FourthFragment"
                 app:destination="@id/Rv04Fragment"/>
+
+        <action
+                android:id="@+id/action_Fragment_to_FithFragment"
+                app:destination="@id/Rv05Fragment"/>
+
+        <action
+                android:id="@+id/action_Fragment_to_SixthFragment"
+                app:destination="@id/Rv06Fragment"/>
+
+    </fragment>
+
+
+    <fragment
+            android:id="@+id/Rv05Fragment"
+            android:name="com.example.myrosarioprayer.Rv05Fragment"
+            android:label="@string/rv02_fragment_label"
+            tools:layout="@layout/fragment_rv05">
+
+        <action
+                android:id="@+id/action_FirstFragment_to_SecondFragment"
+                app:destination="@id/Rv02Fragment"/>
+
+        <action
+                android:id="@+id/action_SecondFragment_to_FirstFragment"
+                app:destination="@id/Rv01Fragment"/>
+
+        <action
+                android:id="@+id/action_Fragment_to_ThirdFragment"
+                app:destination="@id/Rv03Fragment"/>
+
+        <action
+                android:id="@+id/action_Fragment_to_FourthFragment"
+                app:destination="@id/Rv04Fragment"/>
+
+        <action
+                android:id="@+id/action_Fragment_to_FithFragment"
+                app:destination="@id/Rv05Fragment"/>
+
+        <action
+                android:id="@+id/action_Fragment_to_SixthFragment"
+                app:destination="@id/Rv06Fragment"/>
+
+    </fragment>
+
+    <fragment
+            android:id="@+id/Rv06Fragment"
+            android:name="com.example.myrosarioprayer.Rv06Fragment"
+            android:label="@string/rv02_fragment_label"
+            tools:layout="@layout/fragment_rv06">
+
+        <action
+                android:id="@+id/action_FirstFragment_to_SecondFragment"
+                app:destination="@id/Rv02Fragment"/>
+
+        <action
+                android:id="@+id/action_SecondFragment_to_FirstFragment"
+                app:destination="@id/Rv01Fragment"/>
+
+        <action
+                android:id="@+id/action_Fragment_to_ThirdFragment"
+                app:destination="@id/Rv03Fragment"/>
+
+        <action
+                android:id="@+id/action_Fragment_to_FourthFragment"
+                app:destination="@id/Rv04Fragment"/>
+
+        <action
+                android:id="@+id/action_Fragment_to_FithFragment"
+                app:destination="@id/Rv05Fragment"/>
+
+        <action
+                android:id="@+id/action_Fragment_to_SixthFragment"
+                app:destination="@id/Rv06Fragment"/>
 
     </fragment>
 

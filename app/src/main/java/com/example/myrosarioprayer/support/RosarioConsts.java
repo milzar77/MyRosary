@@ -36,6 +36,22 @@ public class RosarioConsts {
             ERosarioSymbol.SYM_GLORIA
     };
 
+    public static final ERosarioSymbol[] schemeMantraForSadhguruChant = {
+            ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,
+            ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,
+            ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,
+            ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,
+            ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1,ERosarioSymbol.SYM_BRAHMANANDASWAROOPA_1
+    };
+
+    public static final ERosarioSymbol[] schemeMantraForAumChant = {
+            ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,
+            ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,
+            ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,
+            ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,
+            ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1,ERosarioSymbol.SYM_AUM_1
+    };
+
     public static final ERosarioSymbol[] schemeMantraForThePope1 = {
             ERosarioSymbol.SYM_PATER_POPE_INTENTION,
             ERosarioSymbol.SYM_AVE,ERosarioSymbol.SYM_AVE,ERosarioSymbol.SYM_AVE,

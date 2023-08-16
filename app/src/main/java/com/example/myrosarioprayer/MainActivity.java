@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     private ActivityMainBinding binding;
 
     private Spinner spinner;
-    private static final String[] spinnerComboItem = {"Misteri di GPII", "Mistero del Giorno", "Invocazione Santa Rita", "Misteri del Vaticano"};
+    private static final String[] spinnerComboItem = {"Misteri di GPII", "Mistero del Giorno", "Invocazione Santa Rita", "Misteri del Vaticano", "Sadhguru chant", "AUM chant"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,13 +71,20 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 View myView2 = inflater.inflate(R.layout.fragment_rv02, null);
                 View myView3 = inflater.inflate(R.layout.fragment_rv03, null);
                 View myView4 = inflater.inflate(R.layout.fragment_rv04, null);
+                View myView5 = inflater.inflate(R.layout.fragment_rv05, null);
+                View myView6 = inflater.inflate(R.layout.fragment_rv06, null);
                 TextView myTextView1 = (TextView) findViewById(R.id.textview_first);
                 TextView myTextView2 = (TextView) findViewById(R.id.textview_second);
                 TextView myTextView3 = (TextView) findViewById(R.id.textview_third);
                 TextView myTextView4 = (TextView) findViewById(R.id.textview_fourth);
+                TextView myTextView5 = (TextView) findViewById(R.id.textview_fith);
+                TextView myTextView6 = (TextView) findViewById(R.id.textview_sixth);
+
+                TextView myTextViewProgressive = (TextView) findViewById(R.id.tvProgressive);
+                TextView myTextViewProgressive2 = (TextView) findViewById(R.id.tvProgressive2);
 
                 //RosarioActions.agisciUno(myTextView1, myTextView2);
-                RosarioActions.clearRosario(myTextView1, myTextView2, myTextView3, myTextView4);
+                RosarioActions.clearRosario(myTextView1, myTextView2, myTextView3, myTextView4, myTextView5, myTextView6, myTextViewProgressive, myTextViewProgressive2);
 
             }
         });
@@ -184,9 +191,22 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 Navigation.findNavController(MainActivity.this, R.id.nav_host_fragment_content_main)
                         .navigate(R.id.action_Fragment_to_ThirdFragment);
 
+                break;
             case 3:
                 Navigation.findNavController(MainActivity.this, R.id.nav_host_fragment_content_main)
                         .navigate(R.id.action_Fragment_to_FourthFragment);
+
+                break;
+
+            case 4:
+                Navigation.findNavController(MainActivity.this, R.id.nav_host_fragment_content_main)
+                        .navigate(R.id.action_Fragment_to_FithFragment);
+
+                break;
+
+            case 5:
+                Navigation.findNavController(MainActivity.this, R.id.nav_host_fragment_content_main)
+                        .navigate(R.id.action_Fragment_to_SixthFragment);
 
                 break;
 
