@@ -45,6 +45,9 @@ public enum ERosarioSymbol {
     SYM_MISTERI_GLORIOSI("\u2162"),
     SYM_MISTERI_LUMINOSI("\u2163"),
 
+    SYM_BRAHMANANDASWAROOPA_1("\u2665"),//2665=♥
+
+    SYM_AUM_1("*"),
 
     SYM_EMPTY("EMPTY")
     ;
@@ -135,6 +138,21 @@ public enum ERosarioSymbol {
                 this.textPrayerTooltip = "MISTERO DELLA LUCE";
                 this.textSymbol = "";
                 this.testoPreghiera = "";
+                break;
+            case "SYM_BRAHMANANDASWAROOPA_1":
+                this.textPrayerTooltip = "BRAHMA NANDA SWAROOPA";
+                this.textSymbol = "BN";
+                this.testoPreghiera = "Brahma Nanda Swaroopa, Isha Jagadisha; Akilannda Swaroopa, Isha Mageysha.";
+                break;
+            case "SYM_AUM_1":
+                this.textPrayerTooltip = "AUM";
+                this.textSymbol = "OM";
+                this.testoPreghiera = "Aum";
+                break;
+            case "SYM_SOAM_1":
+                this.textPrayerTooltip = "SO AM";
+                this.textSymbol = "SO AM";
+                this.testoPreghiera = "So Am";
                 break;
             case "SYM_EMPTY":
                 this.textPrayerTooltip = "EMPTY";
