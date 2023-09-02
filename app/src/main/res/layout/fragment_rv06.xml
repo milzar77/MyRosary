@@ -12,7 +12,7 @@
             android:layout_height="wrap_content" android:id="@+id/tvProgressive2"
             android:textAppearance="?android:attr/textAppearanceLarge"
             app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginBottom="556dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginBottom="506dp" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="175dp"
 
             android:gravity="top|center_horizontal"
